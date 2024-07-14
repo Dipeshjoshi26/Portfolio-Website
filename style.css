@@ -562,12 +562,24 @@ span{
     .timeline-items::before{
         left: 7px;
     }
-    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(odd){
+        padding-left: 37px;
+    }
     .timeline-item:nth-child(even){
         padding-left: 37px;
     }
+
     .timeline-dot{
         left: 0;
+        
+    }
+    .timeline-content{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+       
+        
     }
     .services{
         padding-bottom: 7;
